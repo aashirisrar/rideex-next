@@ -4,7 +4,7 @@ import hero from "@/public/hero.jpg";
 
 const LandingHero = () => {
   return (
-    <div className="h-96 py-14 px-16 bg-[#218A94]">
+    <div className="h-[26rem] py-14 px-16 bg-[#218A94]">
       <div className="flex col-span-2 gap-24 justify-center">
         <div className="w-96">
           <div className="text-[#F4CE14] text-4xl font-semibold mb-4">
@@ -23,7 +23,7 @@ const LandingHero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[459px] h-[420px] rounded-3xl bg-blue-900 overflow-hidden relative">
+        <div className="w-[459px] h-[427px] rounded-[50px] bg-blue-900 overflow-hidden relative">
           <Image
             className="rounded-3xl"
             layout="fill"

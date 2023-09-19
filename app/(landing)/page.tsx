@@ -2,6 +2,7 @@ import LandingContent from "@/components/landing-content";
 import LandingHero from "@/components/landing-hero";
 import LandingNavbar from "@/components/landing-navbar";
 import LandingFooter from "@/components/landing-footer";
+import KeyFeatures from "@/components/landing-key-features";
 
 const LandingPage = () => {
   return (
@@ -9,6 +10,7 @@ const LandingPage = () => {
       <LandingNavbar />
       <LandingHero />
       <LandingContent />
+      <KeyFeatures />
       <LandingFooter />
     </div>
   );
