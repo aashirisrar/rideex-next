@@ -72,6 +72,8 @@ const KeyFeatures = () => {
             <div>
               Choose your ride times, routes, and fellow carpoolers that fit
               your schedule. We give you the power to customize your commute.
+              <br />
+              <br />
             </div>
             <div className="pt-3 font-bold ">Begin Carpooling Now</div>
           </div>
@@ -86,7 +88,7 @@ const KeyFeatures = () => {
               peace of mind.
               <br />
             </div>
-            <div className="pt-3 font-bold ">Find Your Ride</div>
+            <div className="pt-3 font-bold">Find Your Ride</div>
           </div>
         </div>
       </div>

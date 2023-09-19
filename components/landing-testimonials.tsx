@@ -4,14 +4,14 @@ import user2 from "@/public/user-2.jpg";
 import user3 from "@/public/user-3.jpg";
 import user4 from "@/public/user-4.jpg";
 
-const LandingTestiomonials = () => {
+const LandingTestimonials = () => {
   return (
-    <div className="h-[68rem] bg-[#F4F4F4] text-black">
+    <div className="h-[28rem] bg-[#F4F4F4] text-black">
       <div className="pt-20 pb-12">
         <h4 className="text-center text-4xl">Testimonials</h4>
       </div>
       {/* First Row */}
-      <div className="flex col-span-4 gap-10 justify-center text-sm">
+      <div className="flex col-span-4 gap-8 justify-center text-sm">
         <div className="w-[220px] h-[190px] rounded-xl bg-[#E8E8E8] overflow-hidden">
           <div className="p-5">
             <div className="font-bold pb-2 ">Ali Furqan</div>
@@ -86,4 +86,4 @@ const LandingTestiomonials = () => {
   );
 };
 
-export default LandingTestiomonials;
+export default LandingTestimonials;
