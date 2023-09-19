@@ -4,14 +4,14 @@ import hero from "@/public/hero.jpg";
 
 const LandingHero = () => {
   return (
-    <div className="h-[26rem] py-14 px-16 bg-[#218A94]">
+    <div className="h-[26.5rem] py-16 px-16 bg-[#218A94]">
       <div className="flex col-span-2 gap-24 justify-center">
         <div className="w-96">
-          <div className="text-[#F4CE14] text-4xl font-semibold mb-4">
+          <div className="text-[#F4CE14] text-4xl font-semibold mb-4 mt-2">
             Share the Ride,
             <br /> Share the Planet
           </div>
-          <div className="mb-8 ">
+          <div className="mb-8">
             Are you tired of traffic jams, high fuel costs, and the burden on
             the environment? EcoRide is here to transform your daily commute.
             Join our community of eco-conscious commuters and be part of the
