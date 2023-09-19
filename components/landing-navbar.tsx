@@ -5,8 +5,8 @@ import logo from "@/public/logo.png";
 const LandingNavbar = () => {
   return (
     <nav>
-      <ul className="flex p-4 justify-between bg-white text-black items-center text-xl">
-        <div className="">
+      <ul className="flex px-8 p-4 justify-between bg-white text-black items-center text-xl">
+        <div>
           <Image width="194" src={logo} alt="logo" />
         </div>
         <div className="flex gap-10 p-4 bg-white text-black font-bold items-center">

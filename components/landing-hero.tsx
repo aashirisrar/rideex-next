@@ -4,14 +4,14 @@ import hero from "@/public/hero.jpg";
 
 const LandingHero = () => {
   return (
-    <div className="h-96 p-12 bg-[#218A94]">
-      <div className="flex col-span-2">
+    <div className="h-96 py-14 px-16 bg-[#218A94]">
+      <div className="flex col-span-2 gap-24 justify-center">
         <div className="w-96">
-          <div className="text-[#F4CE14] text-4xl font-semibold">
+          <div className="text-[#F4CE14] text-4xl font-semibold mb-4">
             Share the Ride,
             <br /> Share the Planet
           </div>
-          <div>
+          <div className="mb-8 ">
             Are you tired of traffic jams, high fuel costs, and the burden on
             the environment? EcoRide is here to transform your daily commute.
             Join our community of eco-conscious commuters and be part of the
@@ -23,8 +23,14 @@ const LandingHero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[439px] h-[467px] p-4 bg-blue-900 overflow-hidden ">
-          <Image className="rounded-3xl" src={hero} alt="hero-image" />
+        <div className="w-[459px] h-[420px] rounded-3xl bg-blue-900 overflow-hidden relative">
+          <Image
+            className="rounded-3xl"
+            layout="fill"
+            objectFit="cover"
+            src={hero}
+            alt="hero-image"
+          />
         </div>
       </div>
     </div>
