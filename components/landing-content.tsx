@@ -3,13 +3,13 @@ import content from "@/public/content-1.jpg";
 
 const LandingContent = () => {
   return (
-    <div className="h-[34rem] bg-[#F4F4F4] text-black">
+    <div className="h-[34rem] bg-[#F4F4F4] text-black px-16">
       <div className="pt-24 pb-10">
         <h4 className="text-center text-4xl">
           Carpooling Made Easy <br /> Share Rides, Save Money, Reduce Emissions
         </h4>
       </div>
-      <div className="flex col-span-2 gap-24 justify-center">
+      <div className="flex col-span-2 gap-[32rem] justify-center">
         <div className="w-96">
           <div className="mb-8 ">
             Welcome to RideEx, where we're committed to revolutionizing your

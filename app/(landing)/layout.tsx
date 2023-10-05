@@ -1,6 +1,6 @@
 const LandingLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <main className="bg-[#111827]">
+    <main className="bg-white">
       <div>{children}</div>
     </main>
   );

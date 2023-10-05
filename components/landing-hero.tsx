@@ -5,7 +5,7 @@ import hero from "@/public/hero.jpg";
 const LandingHero = () => {
   return (
     <div className="h-[26.5rem] py-16 px-16 bg-[#218A94]">
-      <div className="flex col-span-2 gap-24 justify-center">
+      <div className="flex col-span-2 gap-96 justify-center">
         <div className="w-96">
           <div className="text-[#F4CE14] text-4xl font-semibold mb-4 mt-2">
             Share the Ride,

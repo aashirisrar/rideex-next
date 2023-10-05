@@ -8,7 +8,7 @@ import LandingAbout from "@/components/landing-about";
 
 const LandingPage = () => {
   return (
-    <div className="mx-auto max-w-screen-lg h-full">
+    <div className="mx-auto h-full">
       <LandingNavbar />
       <LandingHero />
       <LandingContent />
