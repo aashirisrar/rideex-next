@@ -36,10 +36,6 @@ Rideex aims to revolutionize transportation by promoting shared rides and reduci
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
-## Author
-
-Your Name - [Aashir Israr](https://github.com/aashirisrar)
-
 ## Acknowledgments
 
 Special thanks to all contributors and supporters who have contributed to making Rideex a reliable ridesharing platform.
